@@ -6,7 +6,7 @@ export const chatSlice = createSlice({
     chat: null,
   },
   reducers: {
-    lsetChat: (state,action) => {
+    setChat: (state,action) => {
       
       state.chatId=action.payload.chatId;
       state.chatName = action.payload.chatName
@@ -14,7 +14,7 @@ export const chatSlice = createSlice({
   },
 });
 
-export const { logout, login } = chatSlice.actions;
+export const { setChat } = chatSlice.actions;
 
 
 export const selectChatName = state => state.chat.chatName;

@@ -16,7 +16,7 @@ function App() {
         //user logged in
         dispatch(login({
           uid:authUser.uid,
-          photo:authUser.photoUrl,
+          photo:authUser.photoURL,
           email : authUser.email,
           displayName : authUser.displayName
         }))
