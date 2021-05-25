@@ -42,7 +42,7 @@ const Chat = () => {
             displayName : user.displayName
         })
 
-
+        
         setInput('')
     }
     return ( 
@@ -75,3 +75,4 @@ const Chat = () => {
 }
  
 export default Chat;
+

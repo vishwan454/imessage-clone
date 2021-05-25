@@ -31,7 +31,6 @@ const Sidebar = () => {
             db.collection('chats').add({
                 chatName:chatName,
         })
-    
         }
     }
     return (

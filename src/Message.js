@@ -13,7 +13,7 @@ const Message = forwardRef(({id , contents : {
         <div ref={ref} className={`message ${user.email === email && 'message__sender'}`}>
             <Avatar />
             <p>{message}</p>
-            <small>{new Date(timestamp ?.toDate()).toLocaleDateString()}</small>
+            <small>{new Date(timestamp?.toDate()).toLocaleDateString()}</small>
         </div>
      );
 })
